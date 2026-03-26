@@ -1,40 +1,66 @@
-### Library Management
+# 📚 Library Management System (ERPNext Assignment)
 
-Library Management System
+## 👤 Author
+**Name**: Mayur Godbole  
+**Level**: Entry Level (0–1 years)
 
-### Installation
+---
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+## 📌 Project Overview
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch main
-bench install-app library_management
-```
+This project is developed as part of the ERPNext Entry Level Developer Assignment.
 
-### Contributing
+The system manages:
+- Library Members
+- Books with inventory tracking
+- Book Issue & Return Transactions
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+---
 
-```bash
-cd apps/library_management
-pre-commit install
-```
+## 🚀 Features
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+### 👥 Library Member
+- Add, edit, delete members
+- Auto-generated Member ID
+- Email uniqueness validation
+- Status management
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
-### CI
+### 📖 Book Management
+- Add and manage books
+- Track total and available copies
+- Prevent negative values
 
-This app can use GitHub Actions for CI. The following workflows are configured:
+### 🔄 Book Transaction
+- Issue and return books
+- Due date validation
+- Return date validation
 
-- CI: Installs this app and runs unit tests on every push to `develop` branch.
-- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
+---
 
+## 🧪 Testing
 
-### License
+See `TESTING.md` for all test cases.
 
-mit
+---
+
+## 📸 Screenshots
+
+Available in `screenshots/` folder.
+
+---
+
+## 📝 Self Review
+
+See `SELF_REVIEW.md`
+
+---
+
+## 🔗 Repository
+
+https://github.com/mayur-godbole/library-management
+
+---
+
+## ✅ Status
+
+✔ Assignment Completed Successfully
