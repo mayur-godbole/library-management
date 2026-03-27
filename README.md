@@ -2,7 +2,7 @@
 
 A full-stack **Library Management System** built using the **Frappe Framework** to efficiently manage books, members, and library transactions.
 
-This project demonstrates practical implementation of backend development, database design, and workflow automation using Frappe.
+This project demonstrates practical implementation of **backend development, database design, and workflow automation** using Frappe.
 
 ---
 
@@ -35,6 +35,7 @@ library_management/
 │   ├── config/
 │   ├── hooks.py
 │   └── modules.txt
+├── screenshots/
 ├── README.md
 └── setup files
 ```
@@ -52,26 +53,26 @@ library_management/
 
 1. Clone the repository:
 
-```bash
+```
 git clone https://github.com/mayur-godbole/library-management.git
 cd library-management
 ```
 
 2. Start Frappe environment (Docker):
 
-```bash
+```
 docker-compose -f pwd.yml up -d
 ```
 
 3. Access container:
 
-```bash
+```
 docker-compose -f pwd.yml exec backend bash
 ```
 
 4. Install the app on your site:
 
-```bash
+```
 bench --site library.localhost install-app library_management
 ```
 
@@ -83,32 +84,63 @@ http://library.localhost:8080
 
 ---
 
-## 📸 Screenshots
+## 📸 Application Screenshots
 
- *(Available in /Screenshots folder)*
+### 🔐 Login Page
 
-Example:
+![Login](screenshots/login.png)
 
-* Book List View
-* Member Form
-* Issue/Return Workflow
-* Login Page
+### 📘 Book Form View
+
+![Book Form](screenshots/Book%20form%20view.png)
+
+### 📚 Book List View
+
+![Book List](screenshots/Book%20list%20view.png)
+
+### 🧾 DocType List View
+
+![DocType List](screenshots/Doctype%20list%20view.png)
+
+### 📝 DocType Form View
+
+![DocType Form](screenshots/Doctype%20form%20view.png)
+
+### 🔄 Issue Transaction
+
+![Issue](screenshots/Issue%20transaction%20form.png)
+
+### 🔁 Return Transaction
+
+![Return](screenshots/Return%20transaction%20form.png)
+
+### 👤 Member Record
+
+![Member](screenshots/Sample%20member_.png)
+
+### ⚠️ Validation Error
+
+![Error](screenshots/Validation%20error.png)
+
+### ✅ Validation Working
+
+![Validation](screenshots/Validation%20working.png)
 
 ---
 
 ## 💡 What I Built
 
-* Designed custom **DocTypes** for:
+### 📌 Custom DocTypes:
 
-  * Books
-  * Members
-  * Transactions
+* Books
+* Members
+* Transactions
 
-* Implemented:
+### ⚙️ Implementations:
 
-  * Book issuing and returning workflow
-  * Data management system using Frappe backend
-  * Structured application using Frappe best practices
+* Book issuing and returning workflow
+* Data management system using Frappe backend
+* Structured application using Frappe best practices
 
 ---
 
@@ -136,9 +168,8 @@ to manage their book inventory and member transactions efficiently.
 ## 👨‍💻 Author
 
 **Mayur Godbole**
-
-* Recent B.E Graduate 
-* Interested in Backend Development & ERP Systems
+Recent B.E Graduate
+Interested in Backend Development & ERP Systems
 
 ---
 
@@ -151,6 +182,4 @@ Feel free to fork this repo and contribute improvements!
 ## 📜 License
 
 This project is licensed under the MIT License.
-
----
 
