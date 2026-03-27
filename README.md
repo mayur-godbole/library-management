@@ -116,7 +116,7 @@ http://library.localhost:8080
 
 ### 👤 Member Record
 
-![Member](screenshots/Sample%20member_.png)
+![Member](screenshots/Sample%20member.png)
 
 ### ⚠️ Validation Error
 
